@@ -14,7 +14,7 @@ function getUserByName(username) {
    return new Promise(function(resolve,reject){
         $.get('http://jsonplaceholder.typicode.com/users?username=' + username, function(users){
             if(users.length)
-              resolve("Found");
+              resolve(console.log("Found!!"));
            else
                reject('User with name ' + username + ' not found');
         });
