@@ -1,14 +1,14 @@
-//  var billAmount = 100.40;
+ var billAmount = 100.40;
 
-//  function gratuity() {
-//  	return (billAmount*0.2);
-//  }
+ function gratuity() {
+ 	return (billAmount*0.2);
+ }
 
-// function totalWithGrat(amount) {
-// 	return gratuity() + amount;
-// }
+function totalWithGrat(amount) {
+	return gratuity() + amount;
+}
 
-//  console.log("Your total with gratuity is: $" + totalWithGrat(billAmount).toFixed(2));
+ console.log("Your total with gratuity is: $" + totalWithGrat(billAmount).toFixed(2));
 
 
 // var arrayOfMystery = [
