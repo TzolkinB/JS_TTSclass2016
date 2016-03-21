@@ -19,7 +19,12 @@ function newTask(){
 };
 
 document.querySelector('ul').addEventListener('click', function(event){
-	var noMore = event.target.remove();
-});
+	var noMore = event.target
+    noMore.style["text-decoration"] = 'line-through';
+    setTimeout(function(){
+     noMore.remove();
+    }, 1000);
 
+});
+//
 
