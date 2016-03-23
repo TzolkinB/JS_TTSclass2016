@@ -1,0 +1,9 @@
+{
+  "firebase": "jad-slick",
+  "public": "app",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
